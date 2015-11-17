@@ -70,13 +70,15 @@ h3 {
 	font-size:1.25rem;
 }
 
-h4 {
-	font-size:.9rem
+dt {
+	font-size:1.25rem;
+	margin-top:1rem;
 }
 
-h5 {
+dd {
 	font-style:italic;
 	font-size:1rem;
+	margin:0 auto;
 }
 /*--------------------------------------------------------------
 1.2 - Body Copy
@@ -115,8 +117,8 @@ a:hover {
 }
 
 #hero a, #hero a:hover, form a {
-	margin:10px;
-	padding-top: 16px;
+	margin:.75rem;
+	padding-top: 1rem;
 	color:white;
 }
 	
@@ -125,7 +127,7 @@ a:hover {
 }
 
 form a {
-	margin-left: 205px;
+	margin-left:15.25rem;;
 
 }
 
@@ -139,9 +141,9 @@ form a {
 } 
 
 #media a {
-	width:22px;
-	height:22px;
-	margin: 5px;
+	width:1.5rem;
+	height:1.5rem;
+	margin:.3rem;
 }
 
 #media li:first-child a {
@@ -162,11 +164,11 @@ form a {
 1.4 - Forms
 -------------------------------------------------------------- */
 form {
-	width:500px;
+	width:20rem;;
 	text-align:left;
 	display:block;
 	text-transform:uppercase;
-	margin-left: 200px;
+	margin-left:11rem;
 }
 
 form ul {
@@ -180,8 +182,9 @@ fieldset {
 input, textarea {	
 	color:white;
 	background-color:#171F27;
-	width:300px;
-	margin:10px;
+	width:18rem;
+	margin:.75rem;
+	height:1.5rem;
 }
 
 input, textarea , label, footer ul li {
@@ -194,7 +197,7 @@ input:focus, textarea:focus, .btn:focus {
 /*--------------------------------------------------------------
 1.5 - Lists
 -------------------------------------------------------------- */
-header li {
+header li, footer ul li {
 	vertical-align:middle;
 	padding:1rem;
 }
@@ -208,13 +211,13 @@ ul {
 	padding:0;
 }
 
-ul li, header li, footer li {
+ul li, header li, footer ul li {
 	display:inline-block;
 }
 
 form li {
 	text-align:left;
-	padding-left:10px;
+	padding-left:.75rem;
 }
 /*--------------------------------------------------------------
 1.6 - Tables
@@ -270,7 +273,7 @@ footer li {
 }
 
 .dark-bg, .light-bg {
-	padding:50px;
+	padding:3.5rem;
 }
 /*--------------------------------------------------------------
 5.2 - Text Colors
@@ -305,7 +308,7 @@ COLUMNS
 
 [class*="col-"] {
 	float:left;
-	padding:0 10px 20px 10px;
+	padding:0 .62rem 1.8rem .62rem;
 }
 
 [class*="col-"]:first-of-type {
